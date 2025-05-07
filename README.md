@@ -1,4 +1,4 @@
-# **AI-Based Techniques for Video Cutting and Trimming: A Review of Research Literature**
+# **AI-Based Techniques for Video Cutting and Trimming: An Automated Research Review**
 
 ## **1\. Introduction**
 
