@@ -38,7 +38,7 @@ These descriptions enable detailed semantic analysis of the video content, going
 
 Finally, the **Story Composition** phase employs a Video Arrangement Agent to select and compile the filtered clips into a coherent final narrative [7]. This agent aims to ensure a logical flow and engaging storyline in the trimmed video, addressing the limitations of previous methods that often overlooked the relationships between segments [7]. To evaluate the effectiveness of the trimmed videos, AVT also incorporates a Video Evaluation Agent to autonomously assess their quality based on criteria aligned with user preferences [7]. Experimental results have shown that AVT receives more favorable evaluations in user studies and demonstrates superior performance in terms of mAP and precision on highlight detection tasks compared to existing methods [6].
 
-The modular design of AVT, with its specialized agents for captioning, filtering, arrangement, and evaluation, represents a significant trend towards creating more sophisticated and interpretable AI systems for complex video processing tasks [7]. By breaking down the video trimming problem into these distinct stages, each handled by an agent optimized for its specific role, AVT offers a more targeted and potentially more effective solution for efficiently condensing long-form video content while maintaining narrative coherence.7
+The modular design of AVT, with its specialized agents for captioning, filtering, arrangement, and evaluation, represents a significant trend towards creating more sophisticated and interpretable AI systems for complex video processing tasks [7]. By breaking down the video trimming problem into these distinct stages, each handled by an agent optimized for its specific role, AVT offers a more targeted and potentially more effective solution for efficiently condensing long-form video content while maintaining narrative coherence [7].
 
 ## **4\. Flexible and Efficient Video Editing Frameworks**
 
@@ -64,7 +64,7 @@ The system's technical pipeline involves preprocessing the video to extract fram
 
 An observational study with ten novice video editors demonstrated that ExpressEdit significantly enhanced their ability to express and implement their editing ideas [29]. The system allowed participants to perform edits more efficiently and generate more ideas by providing AI-driven interpretations of their multimodal commands and supporting iterations on these commands.29 The development of ExpressEdit highlights the potential of combining natural language with direct manipulation through sketching to create more intuitive and expressive video editing systems [32]. 
 
-This multimodal approach can significantly lower the barrier to entry for video editing, making it more accessible to individuals who may not possess extensive technical skills but have creative visions they wish to realize.31
+This multimodal approach can significantly lower the barrier to entry for video editing, making it more accessible to individuals who may not possess extensive technical skills but have creative visions they wish to realize [31].
 
 ## **6\. Generative Video Editing with Diffusion Models**
 
@@ -88,7 +88,7 @@ Instead of relying solely on the standard DDIM inversion technique, FateZero cap
 
 Additionally, the method implements a reform of the self-attention mechanism within the denoising UNet architecture by introducing spatial-temporal attention, which further ensures frame consistency in the edited video [59]. 
 
-Despite its succinct design, FateZero is the first method to demonstrate the capability of zero-shot text-driven video style and local attribute editing directly from a trained text-to-image model [59]. It also exhibits a better zero-shot shape-aware editing ability when leveraging text-to-video models [59]. Extensive experiments have validated FateZero's superior temporal consistency and overall editing capabilities compared to previous works in the field [59]. The emphasis on manipulating attention maps during the diffusion process highlights the critical role of these mechanisms in achieving coherent and localized video edits without requiring per-prompt training or user-specific masks.59
+Despite its succinct design, FateZero is the first method to demonstrate the capability of zero-shot text-driven video style and local attribute editing directly from a trained text-to-image model [59]. It also exhibits a better zero-shot shape-aware editing ability when leveraging text-to-video models [59]. Extensive experiments have validated FateZero's superior temporal consistency and overall editing capabilities compared to previous works in the field [59]. The emphasis on manipulating attention maps during the diffusion process highlights the critical role of these mechanisms in achieving coherent and localized video edits without requiring per-prompt training or user-specific masks [59].
 
 **VidEdit** [16] introduces a zero-shot and spatially aware approach to text-driven video editing, addressing the limitations of existing diffusion-based methods that often struggle with precise control and maintaining temporal consistency, especially in longer videos [74]. 
 
@@ -102,7 +102,7 @@ This is achieved through a process of image-based video editing that involves in
 
 Extensive experiments conducted on multiple editing benchmarks have demonstrated that Videoshop produces higher quality edits compared to several baseline methods across various evaluation metrics, including edit fidelity, source faithfulness, and temporal consistency [87]. 
 
-This approach allows users to perform a wide spectrum of semantic edits with fine-grained control over locations and appearance, such as adding or removing objects, semantically changing objects, and inserting stock photos into videos [87]. By focusing the editing effort on a single keyframe and leveraging the properties of latent space inversion and noise extrapolation within diffusion models, Videoshop offers a powerful and flexible way to achieve localized and consistent video edits without the need for any training.87
+This approach allows users to perform a wide spectrum of semantic edits with fine-grained control over locations and appearance, such as adding or removing objects, semantically changing objects, and inserting stock photos into videos [87]. By focusing the editing effort on a single keyframe and leveraging the properties of latent space inversion and noise extrapolation within diffusion models, Videoshop offers a powerful and flexible way to achieve localized and consistent video edits without the need for any training [87].
 
 ## **7\. Data-Driven Approaches to Video Cutting**
 
@@ -114,7 +114,7 @@ To achieve this, the researchers collected a large-scale dataset comprising over
 
 Experimental results demonstrated that the proposed model significantly outperformed these baselines in ranking the plausibility of video cuts, even in human studies conducted on a collection of unedited videos [100]. This data-driven approach highlights the potential of learning from existing edited content to automate the time-consuming and skill-intensive process of selecting appropriate cut points in video editing [100]. 
 
-By learning the subtle audiovisual cues that characterize good cuts, AI models can assist video editors by suggesting optimal transitions, thereby speeding up the editing process and potentially enhancing the overall quality and flow of the final video.100
+By learning the subtle audiovisual cues that characterize good cuts, AI models can assist video editors by suggesting optimal transitions, thereby speeding up the editing process and potentially enhancing the overall quality and flow of the final video [100].
 
 ## **8\. Controllable Video Synthesis and Editing with Sketches**
 
@@ -150,7 +150,7 @@ One approach involves using logo transition detection, scene boundary detection,
 
 Experimental results have demonstrated the high accuracy of these AI-based systems in detecting logo and scene transitions, and subjective assessments from viewers indicate a high level of acceptability for the automatically generated highlight clips [159]. The success of these domain-specific approaches highlights the effectiveness of leveraging unique features and patterns within a particular type of video content to automate the clipping process [159]. 
 
-By focusing on cues like logo transitions that often signify the beginning or end of important segments, and scene changes that indicate shifts in the game's action, AI models can be trained to intelligently identify and extract key moments from soccer games, significantly reducing the need for manual intervention and enabling faster, more cost-effective highlight generation.159
+By focusing on cues like logo transitions that often signify the beginning or end of important segments, and scene changes that indicate shifts in the game's action, AI models can be trained to intelligently identify and extract key moments from soccer games, significantly reducing the need for manual intervention and enabling faster, more cost-effective highlight generation [159].
 
 ## **11\. Conclusion and Future Directions**
 
